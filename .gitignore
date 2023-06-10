@@ -3,4 +3,5 @@ __pycache__/
 Pix2Pix_Weights_Colorize_Anime/
 *.zip
 data/
-
+*.pt
+*.pth
