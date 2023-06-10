@@ -5,3 +5,4 @@ Pix2Pix_Weights_Colorize_Anime/
 data/
 *.pt
 *.pth
+*.png
