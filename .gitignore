@@ -2,3 +2,5 @@ __pycache__/
 *.pth.tar
 Pix2Pix_Weights_Colorize_Anime/
 *.zip
+data/
+
