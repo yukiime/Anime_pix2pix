@@ -15,8 +15,8 @@ LAMBDA_GP = 10
 NUM_EPOCHS = 3
 LOAD_MODEL = True
 SAVE_MODEL = False
-CHECKPOINT_DISC = "disc.pth.tar"
-CHECKPOINT_GEN = "gen.pth.tar"
+CHECKPOINT_DISC = "model/disc.pth.tar"
+CHECKPOINT_GEN = "model/gen.pth.tar"
 
 both_transform = A.Compose(
     [A.Resize(width=1024, height=512),], additional_targets={"image0": "image"},
