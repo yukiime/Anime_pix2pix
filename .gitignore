@@ -1,11 +1,13 @@
 __pycache__/
 Pix2Pix_Weights_Colorize_Anime/
-data/train/
-data/val/
-notebook/data/train/
-notebook/data/val/
+data/
+# data/train/
+# data/val/
+# notebook/data/train/
+# notebook/data/val/
 
 *.zip
 *.pt
 *.pth
 *.pth.tar
+*.png
