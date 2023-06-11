@@ -8,7 +8,7 @@ notebook里test2效果还好 (50epochs)
 (用不同的数据集和模型的时候记得修改dataset和config)  
 notebook和py其实算三个项目了 但都是抄来做备份的 懒得分类了
 
-result/ 运行结果样例展示
-evaluation/ 运行结果样例展示
-test/ 测试数据样例展示
-都是.png 
+result/ 运行结果样例展示  
+evaluation/ 运行结果样例展示  
+test/ 测试数据样例展示  
+都是.png   
