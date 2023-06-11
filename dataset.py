@@ -23,6 +23,7 @@ class MapDataset(Dataset):
         # if image.shape[0] != desired_height or image.shape[1] != desired_width:
         #     image = resize_image(image, desired_height, desired_width)  # 调整图像尺寸
 
+        # 这里要改尺寸
         input_image = image[:, :512, :]
         target_image = image[:, 512:, :]
 
