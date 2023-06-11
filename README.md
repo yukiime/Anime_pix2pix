@@ -4,4 +4,4 @@ copy from the Internet, used to learn and backup
 
 notebook里test1效果不好 (50epochs)  
 notebook里test2效果还好 (50epochs)  
-根目录这个能运行但是跑不动 没试过  
+根目录这个能运行但是跑不动 不知道效果 但是论文复现应该效果过得去  
