@@ -1,8 +1,11 @@
 __pycache__/
-*.pth.tar
 Pix2Pix_Weights_Colorize_Anime/
+data/train/
+data/val/
+notebook/data/train/
+notebook/data/val/
+
 *.zip
-data/
 *.pt
 *.pth
-*.png
+*.pth.tar
