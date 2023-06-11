@@ -15,11 +15,16 @@ class MapDataset(Dataset):
         return len(self.list_files)
 
     def __getitem__(self, index):
+        
         img_file = self.list_files[index]
         img_path = os.path.join(self.root_dir, img_file)
+
         image = np.array(Image.open(img_path))
-        input_image = image[:, :600, :]
-        target_image = image[:, 600:, :]
+        # if image.shape[0] != desired_height or image.shape[1] != desired_width:
+        #     image = resize_image(image, desired_height, desired_width)  # 调整图像尺寸
+
+        input_image = image[:, :512, :]
+        target_image = image[:, 512:, :]
 
         augmentations = config.both_transform(image=input_image, image0=target_image)
         input_image = augmentations["image"]
